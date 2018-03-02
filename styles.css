@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.top-left {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.heart {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.build-contenido {
+  height: 400px;
+  margin: 0 auto;
+  width: 25%;
+  color: #fff;
+  padding-top: 2%;
+  padding-right: 28%;
+}
+
+.searchbar {
+  background-color: transparent;
+  height: 60px;
+  color: #1D4E69;
+  padding-top: 10px;
+  display: inline;
+}
+
+.search-img {
+  padding-top: 12px;
+  padding-left: 19px;
+  padding-right: 10px; 
+  float:left;
+}
+
+.search-form-container {
+  margin: 0 auto;
+  text-align: center; 
+  padding: 13px 10px 10px 10px;
+    
+}
+
+.search-form-container input {
+  width: 82%;
+  background-color: transparent;
+  height: 40px;
+  outline: none;
+  padding: 5px;
+  border: 1px solid rgba(255,255,255,0.2);
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255,255,255,0.8);
+  font-size: 16px;
+  background-color: rgba(0,0,0,0.1);
+  margin-right: 10px;
+}
+
+.search-form-container button {
+  align:right;
+}
+
+.searchbar span,
+.searchbar a {
+  color: rgba(255,255,255,0.8);
+  text-decoration:none;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-image: url('images/city-scape.svg');
+  width: 100%;
+  height: 446px;;
+}
+
+.build-button {
+  background-color: rgb(240, 146, 51);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 7px 26px 8px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.bearimg {
+  padding: 0px 0px 5px 5px;
+}
+
+.signup {
+  width: 100%;
+  height: 585px;
+  background-color: rgb(39, 53, 71);
+
+}
+
+.signup-contenedor {
+  padding-top: 4%;
+  padding-left: 19%; 
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center; 
+  background-color: rgb(39, 53, 71);
+ }
+
+.signup-contenido {
+  float: right;
+  color: #fff;
+}
+
+.signup-contenido h2 {
+  padding-bottom: 2%;
+  width: 70%;
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.signup-contenido ul {
+  padding-left: 5%;
+}
+
+.signup-contenido li {
+  margin-bottom: 2%;
+}
+
+.signup-contenido a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-img {
+  width: 36%;
+  margin-right: 5%;
+  margin-left: 6%;
+}
+
+.signup-button {
+  background-color: red;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 7px 26px 8px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.install-contenedor {
+  background-image: url('images/forklift.svg');
+  width: 100%;
+  height: 500px;
+  
+}
+
+.install-contenido {
+  padding: 5% 0 0% 23%;
+}
+
+.install-contenido h2 {
+  padding-bottom: 2%;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.install-contenido p{
+  width: 25%;
+  color: #fff;
+}
+
+.install-button {
+  background-color: rgb(49, 68, 88);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 7px 26px 8px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.blocks-container {
+  width: 100%;
+}
+
+.blocks-contenido {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.blocks-contenido h2 {
+  color: #000000;
+  font-weight: 100;
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+.blocks-3 h4 {
+  color: black;
+  font-size: 20px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.blocks-contenido p {
+  color: rgb(135, 145, 156);
+  margin-top: 10px;
+}
+
+
+.blocks-3 {
+  width:60%;  
+  text-align: center;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+.blocks-3 article{
+  margin: 0 auto;
+  width: 33%;
+  float:left;
+}
+
+.blocks-3 p {
+  width: 69%;
+  padding-left: 15%;
+  color: rgb(135, 145, 156);
+}
+
+.blocks-3 a {
+  color:rgb(208, 74, 73);
+  text-decoration: none;
+}
